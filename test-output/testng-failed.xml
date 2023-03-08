@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="sales.sai.transaction.SellingAnItemForPreExistingCustomerTest">
+        <methods>
+          <include name="sellingAnItemForPreExistingCustomerTest"/>
+          <include name="afterClassTearDown"/>
+          <include name="beforeClassSetup"/>
+          <include name="beforeTestSetup"/>
+          <include name="beforeMethodSetup"/>
+          <include name="afterMethodTearDown"/>
+        </methods>
+      </class> <!-- sales.sai.transaction.SellingAnItemForPreExistingCustomerTest -->
+      <class name="sales.sai.transaction.ViewSalesTransactionPageTest">
+        <methods>
+          <include name="afterClassTearDown"/>
+          <include name="beforeClassSetup"/>
+          <include name="beforeTestSetup"/>
+          <include name="viewSalesTransactionPageTest"/>
+          <include name="beforeMethodSetup"/>
+          <include name="afterMethodTearDown"/>
+        </methods>
+      </class> <!-- sales.sai.transaction.ViewSalesTransactionPageTest -->
+      <class name="sales.sai.transaction.SellingAnItemForNewCustomerTest">
+        <methods>
+          <include name="sellingAnItemForNewCustomerTest"/>
+          <include name="afterClassTearDown"/>
+          <include name="beforeClassSetup"/>
+          <include name="beforeTestSetup"/>
+          <include name="beforeMethodSetup"/>
+          <include name="afterMethodTearDown"/>
+        </methods>
+      </class> <!-- sales.sai.transaction.SellingAnItemForNewCustomerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
