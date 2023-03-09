@@ -39,6 +39,8 @@ public class SellingAnItemForNewCustomerTest extends ConfigClass
 
 		PointOfSalePage pos=new PointOfSalePage(driver);
 		pos.addToCart(quantity);
+		
+		//gfneroigoeriongorgogo
 
 		driver.findElement(By.xpath("(//a[@href='#'])[last()]")).click();
 		waitUtility.explicitVisibilityOfElementLocated(driver, By.xpath("(//input[@name='firstname'])[last()-2]"));
