@@ -30,6 +30,8 @@ public class SellingAnItemForNewCustomerTest extends ConfigClass
 		CommonPage cp=new CommonPage(driver);
 		cp.CommonAction(TabNames.POS);
 		//Archittttttttttttttt
+		
+		//acjaoicnancnn da 
 
 		String actPosURL=driver.getCurrentUrl();
 		String expPosURL="http://rmgtestingserver/domain/Sales_And_Inventory_System/pages/pos.php";
